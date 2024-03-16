@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: sans-serif;
+}
+.App {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: lightblue;
+}
+.nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: brown;
+    padding: 20px 7%;
+}
+ul{
+    flex:1 ;
+    list-style: none;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    margin: 1px 20px ;
+    cursor: pointer;
+    font-size: 20px;
+    color: blue;
+}
+.see{
+    display: flex;
+    align-items: center;
+    background-color: limegreen;
+    padding: 5px 20px ;
+    border-radius: 50px;
+}
+.see input{
+    padding: 5px;
+    background:transparent;
+    border: 0;
+    outline: 0;
+    color: black ;
+    font-size: 18px;
+    max-width: 200px;
+}
+
+h1{
+    font-size: 30px;
+}

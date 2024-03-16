@@ -1,0 +1,28 @@
+span{
+    font-size: 50px;
+    color: white;
+}
+.free{
+    padding: 50px 10px;
+    text-align: center;
+}
+.hi{
+    padding: 40px 10px;
+}
+.a{
+    font-size: 15px;
+    color: black;
+}
+b{
+    color: red;
+}
+button{
+    background: transparent;
+    align-items: center;
+    background-color: limegreen;
+    padding: 10px 20px ;
+    border-radius: 50px;
+    outline: 0;
+    border: 0;
+    font-size: 20px;
+}

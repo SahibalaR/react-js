@@ -1,0 +1,44 @@
+.func {
+    color: blue;
+    background-color: lime;
+    text-align: right;
+    font-family: 'Times New Roman';
+}
+#element {
+    color: red;
+    background-color: lime;
+    text-align: left;
+    font-family: ' Arial Narrow';
+}
+table{
+    height:100px;
+    width: 75%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    
+    
+
+}
+th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 30px;
+    background-color: skyblue;
+    color:black;
+    text-align: center;
+    
+}
+td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 1px;
+    background-color:lightblue;
+    text-align: center;
+    color: black;
+
+}
+
+td:hover{
+    background-color: red;
+    cursor: pointer;
+}
