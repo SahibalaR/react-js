@@ -10,7 +10,9 @@ class Share extends React.Component{
             <div>
                 <br/>
                 <div className="c">
-                <button onClick={this.props.handleClick}>Shares</button>
+                <button onClick={this.props.handleClick}>Shares
+                <i class="fa fa-share-alt-square"></i>
+                </button>
                 <>
                 {this.props.counterValue}
                 </>

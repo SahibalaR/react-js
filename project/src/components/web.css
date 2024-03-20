@@ -1,0 +1,15 @@
+#pass {
+    position:fixed;
+    top: 0;
+}
+img{
+    height: 100%;
+    width: 100%;
+    
+}
+ul li{
+   
+   top: 0;
+   display: inline;
+   margin: 10px 20px;
+}

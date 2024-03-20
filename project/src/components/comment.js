@@ -10,7 +10,9 @@ class Comment extends React.Component{
             <div>
                 <br/>
                 <div className="b">
-                <button onClick={this.props.handleClick}>Comments</button>
+                <button onClick={this.props.handleClick}>Comments
+                <i class="fa fa-comments" ></i>
+                </button>
                 <>
                 {this.props.counterValue}
                 </>

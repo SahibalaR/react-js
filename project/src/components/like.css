@@ -41,3 +41,8 @@ button{
     color: black;
     border: 0;
 }
+i{
+    padding: 5px;
+    font-size: 15px;
+    color: red;
+}

@@ -10,8 +10,11 @@ class Like extends React.Component{
                 <img src="./night.jpg"  alt="/"></img>
                 <br/>
                 <div className="a">
-                <button onClick={this.props.handleClick}>Likes</button>
-                <>
+                <button onClick={this.props.handleClick}>Likes
+                <i class="fa-solid fa-thumbs-up"></i> 
+                </button>
+                              
+               <>
                 {this.props.counterValue}
                 </>
                 </div>
